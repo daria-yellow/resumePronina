@@ -15,6 +15,7 @@
     "react-intl": "^6.4.4",
     "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
+    "sass": "^1.64.2",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -23,6 +24,7 @@
     "prettier": "npx prettier --write .",
     "style": "npm run prettier & npm run lint",
     "build": "webpack",
+    "build:prod": "webpack --config ./webpack.config.prod.js",
     "start": "webpack-dev-server --config ./webpack.config.js"
   },
   "eslintConfig": {
@@ -58,6 +60,7 @@
     "eslint-plugin-react": "^7.33.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.3",
+    "sass-loader": "^13.3.2",
     "ts-loader": "^9.4.4",
     "typescript": "^5.1.6",
     "webpack": "^5.88.2",

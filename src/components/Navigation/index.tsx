@@ -1,7 +1,7 @@
 import type React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Navigation.css';
+import './Navigation.scss';
 import { navigationRoutes } from './NavigationRoutes';
 
 export const Navigation: React.FC = () => {

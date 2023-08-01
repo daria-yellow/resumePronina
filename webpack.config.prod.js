@@ -2,7 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: "./src/index.tsx",
   output: {
     filename: "bundle.js",
@@ -40,5 +40,5 @@ module.exports = {
       template: path.join(__dirname, "public", "index.html"),
     }),
   ],
-  devtool: "eval-source-map",
+  devtool: "cheap-source-map",
 };

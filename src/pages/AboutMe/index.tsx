@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import { type contactsType, myContacts } from '../../info/Contacts';
 import { aboutMeContent } from '../../info/Contents';
 import { FormattedMessage } from 'react-intl';
-import './AboutMe.css';
+import './AboutMe.scss';
 import { InfoPage } from '../../components';
 import myPhoto from '../../images/myPhoto.jpg';
 

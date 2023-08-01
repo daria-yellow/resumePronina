@@ -1,0 +1,24 @@
+:root {
+  --backgroung-color: #e3e1e1;
+  --line-color: #a6a6a6;
+  --dots-color: #8fcbeb;
+  --black-color: black;
+  --link-color: #0763db;
+
+  --name-font: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  --primaty-font: "Times New Roman", Times, serif;
+}
+
+body {
+  font-family: var(--primaty-font);
+  background-color: var(--backgroung-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 2% 15%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

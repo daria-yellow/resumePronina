@@ -3,15 +3,15 @@ import {
   Navigate,
   Route,
   Routes,
-} from "react-router-dom";
-import { IntlProvider } from "react-intl";
-import { textInfo } from "./info/TextInfo";
-import { AboutMe, EducationPage, ExperiencePage, SkillsePage } from "./pages";
-import { Navigation } from "./components";
+} from 'react-router-dom';
+import { IntlProvider } from 'react-intl';
+import { textInfo } from './info/TextInfo';
+import { AboutMe, EducationPage, ExperiencePage, SkillsePage } from './pages';
+import { Navigation } from './components';
 
 export const App: React.FC = () => {
   return (
-    <IntlProvider locale={"en"} messages={textInfo}>
+    <IntlProvider locale={'en'} messages={textInfo}>
       <Router>
         <Navigation />
         <Routes>

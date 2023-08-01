@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import './InfoPage.css';
+import './InfoPage.scss';
 
 export interface InfoContent {
   name?: React.ReactNode;
@@ -48,7 +48,7 @@ export const InfoPage: React.FC<InfoPageProps> = ({
       <div className="info-page__block">
         {withLine && (
           <div className="info-page__vertical-line">
-            <div className="info-page__vertical-line-dot"></div>
+            <div className="info-page__dot info-page__dot-last"></div>
           </div>
         )}
         <div className="info-page__content">
