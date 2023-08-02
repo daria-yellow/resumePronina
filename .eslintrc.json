@@ -22,5 +22,5 @@
     "@typescript-eslint/member-delimiter-style": 0,
     "@typescript-eslint/space-before-function-paren": 0
   },
-  "ignorePatterns": ["webpack.config.js", "*.d.ts"]
+  "ignorePatterns": ["webpack.*", "*.d.ts"]
 }

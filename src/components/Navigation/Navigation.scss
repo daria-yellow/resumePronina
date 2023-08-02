@@ -1,0 +1,20 @@
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 30px 40px;
+
+  a {
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--black-color);
+  }
+
+  &-selected {
+    border-bottom: 2px solid var(--line-color);
+    margin-bottom: -6px;
+    padding-bottom: 4px;
+  }
+}

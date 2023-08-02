@@ -1,7 +1,7 @@
 import { FormattedMessage } from 'react-intl';
 import { InfoPage } from '../../components';
 import { languagesContent, skillsContent } from '../../info/Contents';
-import './Skills.css';
+import './Skills.scss';
 
 export const SkillsePage: React.FC = () => {
   return (
